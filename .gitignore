@@ -1,6 +1,5 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 .gitignore
-.env
 .gitpod.yml
 .idea
 /.idea
@@ -33,7 +32,6 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # local env files
-.env
 
 # vercel
 .vercel
@@ -54,3 +52,4 @@ src/lib/chart/pool-color-map.ts
 src/lib/chart/pool-supply-map.ts
 src/lib/chart/tool-url-map.ts
 src/components/Charts/ShieldedPool/
+config.bat
